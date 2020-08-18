@@ -1,4 +1,4 @@
-require "test_helper"
+require 'test_helper'
 
 class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
   Capybara.register_driver(:headless_chrome) do |app|
